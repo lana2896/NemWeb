@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Nguyen Van A",
+        "rating": 5,
+        "comment_vi": "Nem cua Biển ở đây thực sự xuất sắc, vỏ giòn tan, nhân ngọt. Không gian rất ấm cúng.",
+        "comment_en": "The crab spring rolls here are truly excellent, crispy skin, sweet filling. The space is very cozy.",
+        "source": "Google Maps"
+    },
+    {
+        "id": 2,
+        "name": "Sarah Jenkins",
+        "rating": 5,
+        "comment_vi": "Trải nghiệm Bún Chả tuyệt vời nhất tại Sài Gòn. Rất khuyến khích cho du khách!",
+        "comment_en": "The best Bun Cha experience in Saigon. Highly recommended for tourists!",
+        "source": "Google Maps"
+    },
+    {
+        "id": 3,
+        "name": "Tran Thi B",
+        "rating": 4,
+        "comment_vi": "Đồ ăn ngon, phục vụ nhanh. Giá cả hợp lý so với chất lượng và vị trí quận 1.",
+        "comment_en": "Good food, fast service. Reasonable price for the quality and District 1 location.",
+        "source": "Google Maps"
+    }
+]

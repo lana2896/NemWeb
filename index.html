@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quán Nem | Âm Hưởng Hà Nội Giữa Sài Gòn</title>
+    <meta name="description"
+        content="Quán Nem - 15E Nguyễn Thị Minh Khai, Quận 1. Thưởng thức Nem Cua Biển và Bún Chả Hà Nội trong không gian cổ kính, sang trọng.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container">
+            <a href="#" class="logo">Quán Nem</a>
+            <nav class="navbar">
+                <ul class="nav-list">
+                    <li><a href="#hero" class="nav-link active" data-i18n="nav_home">Trang Chủ</a></li>
+                    <li><a href="#story" class="nav-link" data-i18n="nav_story">Câu Chuyện</a></li>
+                    <li><a href="#menu" class="nav-link" data-i18n="nav_menu">Thực Đơn</a></li>
+                    <li><a href="#gallery" class="nav-link" data-i18n="nav_gallery">Không Gian</a></li>
+                    <li><a href="#reviews" class="nav-link" data-i18n="nav_reviews">Đánh Giá</a></li>
+                    <li><a href="#contact" class="nav-link btn-book" data-i18n="nav_book">Đặt Bàn</a></li>
+                    <li><button id="lang-toggle" class="lang-btn">EN</button></li>
+                </ul>
+            </nav>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title" data-i18n="hero_title">Hương Vị Hà Nội <br> Giữa Lòng Sài Gòn</h1>
+            <p class="hero-subtitle" data-i18n="hero_subtitle">Tinh hoa ẩm thực Việt trong không gian cổ kính & sang
+                trọng</p>
+            <a href="#menu" class="btn btn-primary" data-i18n="hero_cta">Xem Thực Đơn</a>
+        </div>
+    </section>
+
+    <!-- Story Section -->
+    <section class="section story" id="story">
+        <div class="container">
+            <div class="story-grid">
+                <div class="story-image">
+                    <img src="assets/imgs/banner.png" alt="Không gian Quán Nem" class="story-img">
+                </div>
+                <div class="story-text">
+                    <h2 class="section-title" data-i18n="story_title">Câu Chuyện Của Chúng Tôi</h2>
+                    <p class="section-desc" data-i18n="story_desc_1">
+                        Tọa lạc tại <strong>15E Nguyễn Thị Minh Khai, Quận 1</strong>, Quán Nem mang đến một không gian
+                        hoài cổ, gợi nhớ về những nét đẹp văn hóa Hà Nội xưa.
+                    </p>
+                    <p data-i18n="story_desc_2">
+                        Chúng tôi tự hào phục vụ món <strong>Nem Cua Biển</strong> trứ danh với lớp vỏ giòn rụm, nhân
+                        cua
+                        tươi ngọt, cùng món <strong>Bún Chả</strong> đậm đà hương vị truyền thống. Mỗi món ăn là một tác
+                        phẩm nghệ thuật, được chế biến từ những nguyên liệu tươi ngon nhất.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="section menu" id="menu">
+        <div class="container">
+            <h2 class="section-title text-center" data-i18n="menu_title">Thực Đơn Đặc Sắc</h2>
+            <p class="section-subtitle text-center" data-i18n="menu_subtitle">Những món ngon đã làm nên thương hiệu Quán
+                Nem</p>
+
+            <div class="menu-grid">
+                <!-- Menu Item 1 -->
+                <div class="menu-item">
+                    <img src="assets/imgs/hero.png" alt="Nem Cua Biển" class="menu-img">
+                    <div class="menu-info">
+                        <h3 class="menu-name" data-i18n="dish_nem_name">Nem Cua Biển</h3>
+                        <p class="menu-desc" data-i18n="dish_nem_desc">Nem vuông đặc biệt, vỏ giòn tan, nhân cua biển
+                            tươi.</p>
+                        <span class="menu-price">88.000₫</span>
+                    </div>
+                </div>
+
+                <!-- Menu Item 2 -->
+                <div class="menu-item">
+                    <img src="assets/imgs/buncha.png" alt="Bún Chả Hà Nội" class="menu-img">
+                    <div class="menu-info">
+                        <h3 class="menu-name" data-i18n="dish_buncha_name">Bún Chả Hà Nội</h3>
+                        <p class="menu-desc" data-i18n="dish_buncha_desc">Thịt nướng than hoa thơm lừng, nước chấm đậm
+                            đà.</p>
+                        <span class="menu-price">98.000₫</span>
+                    </div>
+                </div>
+
+                <!-- Menu Item 3 -->
+                <div class="menu-item">
+                    <img src="assets/imgs/nuocsau.png" alt="Nước Sấu" class="menu-img">
+                    <div class="menu-info">
+                        <h3 class="menu-name" data-i18n="dish_nuocsau_name">Nước Sấu Hà Nội</h3>
+                        <p class="menu-desc" data-i18n="dish_nuocsau_desc">Vị chua thanh mát, giải nhiệt ngày hè.</p>
+                        <span class="menu-price">35.000₫</span>
+                    </div>
+                </div>
+
+                <!-- Menu Item 4 -->
+                <div class="menu-item">
+                    <img src="assets/imgs/tauhu.png" alt="Tàu Hũ" class="menu-img">
+                    <div class="menu-info">
+                        <h3 class="menu-name" data-i18n="dish_tauhu_name">Tàu Hũ</h3>
+                        <p class="menu-desc" data-i18n="dish_tauhu_desc">Vị chua thanh mát, giải nhiệt ngày hè.</p>
+                        <span class="menu-price">35.000₫</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-4">
+                <a href="https://www.facebook.com/QuanNemRestaurant" class="btn btn-outline" target="_blank"
+                    rel="noopener noreferrer" data-i18n="btn_full_menu">Xem Đầy Đủ Thực Đơn
+                    (Facebook)</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery/Ambience Section -->
+    <section class="section gallery" id="gallery">
+        <div class="container">
+            <h2 class="section-title text-center" data-i18n="gallery_title">Không Gian Cổ Kính</h2>
+            <div class="gallery-grid">
+                <img src="assets\imgs\kg1.png" alt="Không gian 1" class="gallery-item">
+                <img src="assets\imgs\kg2.png" alt="Không gian 2" class="gallery-item">
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="section reviews" id="reviews">
+        <div class="container">
+            <h2 class="section-title text-center" data-i18n="reviews_title">Khách Hàng Nói Về Chúng Tôi</h2>
+            <div class="reviews-grid">
+                <!-- Reviews will be populated by JS -->
+            </div>
+
+            <!-- Add Review Form -->
+            <div class="add-review-box">
+                <h3 class="text-center mb-4" data-i18n="write_review">Viết Đánh Giá</h3>
+                <form id="review-form" class="review-form">
+                    <input type="text" id="review-name" placeholder="Tên của bạn" required>
+                    <select id="review-rating">
+                        <option value="5">5 Stars - Tuyệt vời / Excellent</option>
+                        <option value="4">4 Stars - Tốt / Good</option>
+                        <option value="3">3 Stars - Bình thường / Average</option>
+                    </select>
+                    <textarea id="review-comment" placeholder="Chia sẻ cảm nhận..." required></textarea>
+                    <button type="submit" class="btn btn-primary" data-i18n="btn_post_review">Gửi Đánh Giá</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reservation Section -->
+    <section class="section reservation" id="contact">
+        <div class="container">
+            <div class="reservation-box">
+                <h2 class="section-title text-center" style="color: var(--color-primary);" data-i18n="book_title">Đặt
+                    Bàn</h2>
+                <p class="text-center mb-4" data-i18n="book_desc">Vui lòng điền thông tin để chúng tôi phục vụ tốt nhất.
+                </p>
+                <form id="booking-form" class="booking-form">
+                    <div class="form-group">
+                        <label for="name" data-i18n="label_name">Họ và tên</label>
+                        <input type="text" id="name" name="name" required placeholder="Nhập tên của bạn">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone" data-i18n="label_phone">Số điện thoại</label>
+                        <input type="tel" id="phone" name="phone" required placeholder="Nhập số điện thoại">
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="date" data-i18n="label_date">Ngày</label>
+                            <input type="date" id="date" name="date" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="time" data-i18n="label_time">Giờ</label>
+                            <input type="time" id="time" name="time" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="guests" data-i18n="label_guests">Số khách</label>
+                        <select id="guests" name="guests">
+                            <option value="2" data-i18n="option_2p">2 Người</option>
+                            <option value="4" data-i18n="option_4p">4 Người</option>
+                            <option value="6" data-i18n="option_6p">6 Người</option>
+                            <option value="8+" data-i18n="option_8p">Trên 8 Người</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block" data-i18n="btn_submit">Gửi Yêu Cầu</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-info">
+                    <a href="#" class="logo footer-logo">Quán Nem</a>
+                    <p class="footer-desc" data-i18n="footer_desc">
+                        Nơi lưu giữ hồn ẩm thực Việt. Sự hài lòng của quý khách là niềm vinh hạnh của chúng tôi.
+                    </p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/QuanNemRestaurant" target="_blank"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fas fa-home"></i></a>
+
+                    </div>
+                </div>
+                <div class="footer-contact">
+                    <h3 data-i18n="footer_contact">Liên Hệ</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> <span data-i18n="contact_address">15E Nguyễn Thị Minh
+                                Khai, P. Bến Nghé, Quận 1, TP.HCM</span></li>
+                        <li><i class="fas fa-clock"></i> <span data-i18n="contact_hours">10:00 - 22:00 (Mỗi ngày)</span>
+                        </li>
+                        <li><i class="fas fa-phone-alt"></i> 1900 633005 </li>
+                    </ul>
+                </div>
+                <div class="footer-map">
+                    <!-- Google Map Embed Placeholder -->
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.424170889!2d106.6982743!3d10.7857535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f4a666d0a53%3A0x36da501ce28acb6f!2sQu%C3%A1n%20Nem!5e0!3m2!1sen!2s!4v1708300000000!5m2!1sen!2s"
+                        width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Quán Nem. All Rights Reserved. Designed by Antigravity. <a href="admin.html"
+                        style="color: rgba(255,255,255,0.2); font-size: 10px; margin-left: 10px;">Admin Login</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom JS (Using Module) -->
+    <script type="module" src="assets/js/app.js"></script>
+</body>
+
+</html>
